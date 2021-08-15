@@ -1,0 +1,72 @@
+/*
+	ctrt shift / pa rin to comment
+
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+
+*/
+
+*{ /*all elements*/
+	/*Default Font*/
+	font-family: 'Roboto', sans-serif;  /*css rule*/
+}
+
+h1, h2 { /*h1 and h2 lang ay montserrat*/
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+
+	height: 250px;
+	width: 250px;
+
+}
+
+#landing {  /*target element na may id na landing*/
+	height: 80vh; /*80% ng height na nakikita sa webpage/ viewport height*/
+	/*center the content, (image, heading, and paragraph) horizontally and vertically using flexbox*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#gallery { /*"#"" sign sa id */
+
+	height: 75vh;
+	display: flex;
+	flex-direction: column; 
+	align-items: center; /*centered horizontally mismong element 'di lang text*/
+	justify-content: center; /*centered vertically*/
+	color: white;
+	border-radius: 6px;
+	
+}
+
+
+ul {  /*to remove bullet points*/
+
+	list-style: none;
+	padding: 0;
+}
+
+h2 {
+
+	color: #007bff; /*hex decimal nasa color wheel to*/ /*color- text and bg-color: background color*/
+}
+
+.tools{ /*sa tools na classes to*/ /*"."" sa class*/
+
+	padding: 25px; /*add spaces within or inside our element which in case are our boxes or div*/
+	border: 5px solid #f2f2f2;
+	margin: 20px; /*spaces outside our element*/
+	height: 200px;
+	width: 75%;
+}
+
+html { /*target the entire page*/
+
+	scroll-behavior: smooth;
+}
+
